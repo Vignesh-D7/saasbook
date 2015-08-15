@@ -20,4 +20,4 @@
       = date_select(:movie, :release_date, order: [:day, :month, :year])
 
   .form-group
-    = submit_tag 'Save Changes', :class => "btn btn-primary btn-large"
+    = submit_tag 'Save Changes'

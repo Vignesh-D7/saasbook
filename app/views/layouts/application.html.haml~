@@ -6,9 +6,8 @@
     = javascript_include_tag 'application'
     = csrf_meta_tags
 
-  %body.mainContainer
-    .headerContainer
-      %h1.title Rotten Potatoes!
+  %body
+    %h1.title Rotten Potatoes!
     #main
       - if flash[:notice]
         #notice.message= flash[:notice]
